@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative_Computer_Official</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 10px 20px; /* Padding to make buttons larger */
+            border-radius: 5px; /* Rounded corners for buttons */
+            background-color: #333; /* Background color for buttons */
+            transition: background-color 0.3s; /* Smooth color transition on hover */
+        }
+
+        nav a:hover {
+            background-color: #555; /* Color change on hover */
+        }
+
+        section {
+            display: none; /* Initially hide all sections */
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Creative Computer</h1>
+    </header>
+
+    <nav>
+        <a href="#" onclick="showSection('home')">Home</a>
+        <a href="#" onclick="showSection('feedback')">Feedback</a>
+        <a href="#" onclick="showSection('other')">Other Platforms</a>
+        <a href="#" onclick="showSection('contact')">Contact</a>
+        <a href="#" onclick="showSection('about')">About Us</a>
+    </nav>
+
+    <section id="home">
+        <h1>Introduction</h1><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VI5W6zDbAPA?si=cRJ9EXcAkByAm6me" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <section id="feedback">
+        <h2>Feedback</h2>
+        <p>Leave your feedback here.</p>
+        
+        <h3>Feedback From</h3>
+       <p><a href="https://computer4.github.io/feedback/index2.html">Email</a></p>
+    </section>
+
+    <section id="other">
+        <h2>Other Platforms</h2>
+        <p><a href="https://computer4.github.io/introduction_D_cc/index.html">Creative Computer</a></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>khyalpatel1610@gmail.com</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+       <p>Welcome to Creative Computer, your go-to destination for all things coding and programming! 🖥️</p>
+<h1>📚 What We Offer:</h1><P>At Creative Computer, we are passionate about demystifying the world of coding and helping aspiring programmers, developers, and tech enthusiasts unlock their full potential. Our channel is dedicated to providing you with:</P><br>
+<h1>👨‍💻 Coding Tutorials:</h1><p>Whether you're a beginner looking to learn the basics or an experienced coder seeking advanced techniques, our step-by-step tutorials will guide you through various programming languages, frameworks, and technologies.</p><br>
+<h1>🌐 Web Development:</h1><p>Explore the ever-evolving world of web development with us. Discover how to create stunning websites, web applications, and interactive user interfaces.</p><br>
+<h1>💡 Tech Insights:</h1><p>Stay updated with the latest tech trends, industry news, and insightful discussions on the future of technology.</p><br>
+<h1>🤖 Software Development:</h1><p>Dive deep into the world of software engineering and learn how to design, develop, and optimize software applications.</p><br>
+<h1>🚀 Coding Challenges:</h1><p>Sharpen your coding skills with our fun and challenging coding exercises and challenges. Put your knowledge to the test and level up your coding game.</p><br>
+<h1>🎉 Community: </h1><p>Join our growing community of like-minded individuals who share a passion for coding and technology. Connect with fellow learners, ask questions, and collaborate on exciting projects.</p><br>
+<h1>🔔 Stay Connected:</h1><p>Don't miss out on our latest tutorials and tech updates. Be sure to subscribe, hit the notification bell, and follow us on social media to stay connected and informed.
+
+Whether you're a coding novice or a seasoned pro, Creative Computer is here to inspire, educate, and empower you on your coding journey. Let's code creatively together!</p><br>
+<p>Join us in exploring the exciting world of coding and technology. Subscribe now and embark on a coding adventure with Creative Computer! 💻✨</p><br>
+    </section>
+
+    <footer>
+        &copy; 2023 Creative_Computer_Official
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('section').forEach(function(section) {
+                section.style.display = 'none';
+            });
+
+            // Show the selected section
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
+</body>
+</html>
